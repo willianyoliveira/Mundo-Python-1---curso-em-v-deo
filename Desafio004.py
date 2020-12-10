@@ -1,0 +1,7 @@
+v1 = input('Digite algo: ')
+print('{} é alfabético?'.format(v1))
+print(v1.isalpha())
+print('{} é numérico?'.format(v1))
+print(v1.isnumeric())
+print('{} é alfanumérico??'.format(v1))
+print(v1.isalnum())
